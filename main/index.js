@@ -1,9 +1,16 @@
 $(document).ready(function(){
+    $("#outsourceAnswer").hide();
+    $("#internalAnswer").hide();
+    
 	$("#outsource").click(function(){
-			//$("#outsourceAnswer").toggle();
+		$("#outsourceAnswer").toggle();
 	});
-	console.log('test');
-	Reveal.initialize();
+	$("#internal").click(function(){
+		$("#internalAnswer").toggle();
+	});    
+	Reveal.initialize({
+        slideNumber: 'c/t'
+    });
 });
 
 
