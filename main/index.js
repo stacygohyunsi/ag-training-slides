@@ -1,13 +1,17 @@
 $(document).ready(function(){
     $("#outsourceAnswer").hide();
     $("#internalAnswer").hide();
+    $("#learnAnswer").hide();    
     
 	$("#outsource").click(function(){
 		$("#outsourceAnswer").toggle();
 	});
 	$("#internal").click(function(){
 		$("#internalAnswer").toggle();
-	});    
+	});  
+	$("#learn").click(function(){
+		$("#learnAnswer").toggle();
+	});       
 	Reveal.initialize({
         slideNumber: 'c/t'
     });
