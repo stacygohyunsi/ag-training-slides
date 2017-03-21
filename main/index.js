@@ -30,10 +30,10 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-var foo = getParameterByName('name');
-	httpGetAsync('/api/test', function() {
+// var foo = getParameterByName('name');
+// 	httpGetAsync('/api/test', function() {
 		
-	});
+// 	});
 
 function httpGetAsync(theUrl, callback)
 {
