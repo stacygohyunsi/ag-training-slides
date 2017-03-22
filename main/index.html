@@ -73,7 +73,7 @@
 										<ul>
 											<li>HTML - Gives structure</li>
 											<li>CSS - Beautify</li>
-											<li>JS - Dynamic interactivity</li>											
+											<li>JS - Dynamic interactivity</li>
 										</ul>
 									</div>
 								</section>									
@@ -111,7 +111,6 @@
 										<ul>
 											<li>Cascading stylesheets are used to style and present HTML</li>
 											<li>CSS3</li>
-											<li>e.g., selector { property: value; }</li>
 										</ul>	
 									</div>								
 								</section>	
@@ -124,15 +123,16 @@
 										</ul>
 									</div>
 								</section>
-								<section>
-									<h3>Positioning</h3>
+								<section>		
+									<h3>How is it used?</h3>
 									<div>
 										<ul>
-											<li>text-align</li>
-											<li>position</li>
+											<li>selector { property: value }</li>
+											<li>e.g., #dropdown-list { font-size:50px; }</li>		
+											<li>id -> dropdown-list, property -> font-size, value -> 50px</li>								
 										</ul>
-									</div>								
-								</section>	
+									</div>
+								</section>								
 								<section>
 									<h3>Background</h3>
 									<div>
@@ -173,19 +173,29 @@
                 <section>Let's get down to it..</section>
                 <section>
 									To build: A deck of slides about yourself hosted online <span style="font-size:15px;">(How cool is that!)</span>
-									<p>Built with <span style="color:orange">HTML, CSS, Javascript</span>, <span style="color:green">NodeJS and Express</span></p>
+									<p>Built with <span style="color:orange">HTML, CSS, Javascript, Reveal.JS</span>, <span style="color:green">NodeJS and Express</span></p>
 								</section>
+                <section>
+									<h3>Reveal.JS</h3>
+									<div>
+										<ul>
+											<li>A framework for easily creating beautiful presentations using HTML</li>
+											<li>Documentation: https://github.com/hakimel/reveal.js/</li>											
+										</ul>
+									</div>
+								</section>								
                 <section>
 									<h3>What do you need to get started?</h3>
 									<ul>
 										<li>Node Package Manager (npm)</li>
+										<li>Bower Package Manager</li>									
 										<li><a href="https://github.com/">Github</a></li>
 										<li><a href="https://heroku.com/">Hosting Platform (Heroku)</a></li>				
 										<li>....And of course, a keen sense to learn!</li>							
 									</ul>
 								</section>													
 								<section>		
-									NodeJS Package Manager (npm)
+									<h3>NodeJS Package Manager (npm)</h3>
 									<ul>
 										<li>Install node programs</li>
 										<pre><code><li>npm install xxx --save</li></code></pre>
@@ -195,7 +205,6 @@
 									<h3>Fun exercise: to continue beautifying their slides at home throughout the week</h3>
 									<div>
 										<ul>
-											<li>Lazy Loading (load content for the few slides nearest to the current slide)</li>
 											<li>Auto-sliding?</li>
 											<li>Page numbers?</li>
 											<li>Slide transitions</li>
@@ -216,4 +225,18 @@
         <script src="/bower_components/reveal.js/js/reveal.js"></script>
         <script src="./index.js"></script>
     </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Title of Page</title>
+		<link rel="stylesheet" href="CSSSourceFile">
+		<script src="javascriptSourceFile"></script>
+	</head>
+	<body>
+		Content goes here
+	</body>
 </html>
